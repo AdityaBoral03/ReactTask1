@@ -1,13 +1,12 @@
-// import logo from './logo.svg';
-import './App.css';
-import { Component1 } from './components/Component1'
+import React from 'react';
+import WordCounter from './components/WordCounter';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Component1 />
+    <div>
+      <WordCounter />
     </div>
   );
-}
+};
 
 export default App;
