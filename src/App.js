@@ -1,12 +1,12 @@
-import React from 'react';
-import WordCounter from './components/WordCounter';
+import './App.css';
+import { Component1 } from './components/Component1'
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <WordCounter />
+    <div className="App">
+      <Component1 />
     </div>
   );
-};
+}
 
 export default App;
